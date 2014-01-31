@@ -9,7 +9,9 @@ This is an example:
 <code>
 <?php
 try {
+
 	$pdo = new PDO("mysql:host=localhost;dbname=test;charset=utf8",'root','');
+
 	$populate = new Populate();
 	$populate->beginWithLoremIpsum(false); // If you want the text beginning with lorem ipsum
 	$populate->setPDO($pdo); // set the PDO class
