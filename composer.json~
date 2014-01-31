@@ -1,0 +1,14 @@
+{
+    "name": "tacno/populate-mysql-db",
+    "type": "database",
+    "keywords":["populate","database","mysql"],
+    "require": {
+        "php": ">=5.3.0",
+        "another-vendor/package": "1.*"
+    },
+    "autoload": {
+    	"psr-0": {
+    		"Populate":"src"
+    	}
+    }
+}
