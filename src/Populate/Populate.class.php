@@ -1,4 +1,6 @@
 <?php
+	namespace Populate;
+
 	class Populate
 	{
 		protected $pdo;

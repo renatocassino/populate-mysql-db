@@ -169,7 +169,6 @@
 				}
 			}
 
-die('no no no');
 			return implode(' , ',$fields);
 		}
 

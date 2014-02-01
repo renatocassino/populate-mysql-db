@@ -1,6 +1,4 @@
 <?php
-
-	namespace Populate;
 	class LoremIpsumGenerator
 	{
 		private static $_lorem;
