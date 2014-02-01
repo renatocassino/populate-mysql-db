@@ -14,8 +14,8 @@
         }
     ],
     "autoload": {
-		"psr-0": {
-			"tacno_Populate" : "."
-        }
+		"classmap": [
+			"Populate"
+		]
     }
 }
