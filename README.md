@@ -10,6 +10,18 @@ Requirements
  * PDO
  * PHP >= 5.3
 
+How to install:
+-----------
+
+You need to use the composer:
+```JSON
+{
+	"require": {
+		"tacno/populate-mysql-db": "dev-master"
+	}
+}
+```
+
 How to usage:
 -----------
 
