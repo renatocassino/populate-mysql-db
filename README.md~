@@ -7,6 +7,7 @@ In same cases we need to view an application with data and this class solve this
 This is an example:
 
 <code>
+<pre>
 <?php
 try {
 
@@ -19,4 +20,5 @@ try {
 	$populate->setTable('table_test'); // Set the table to populate
 	$populate->setFixValue('image_example','/assets/image/photo.jpg'); // if you want a fix value
 	echo $populate->insert(100); // The number of inserts
+</pre>
 </code>
