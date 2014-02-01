@@ -91,3 +91,23 @@ echo $populate->clean(); // Truncate the table
 ```
 
 You can execute via php cli or task.
+
+
+Extra
+--------
+If you want, you can use the Lorem Ipsum generator in your projects. The class Populate\LoremIpsumGenerator use the Singleton like a design pattern.
+
+An example:
+
+```PHP
+	$lorem = \Populate\LoremIpsumGenerator::getInstance();
+
+	// If u want to generate by a number of words
+	echo $lorem->generateByWords(30);
+
+	// If u want to generate by a number of chars
+	echo $lorem->generateByChars(30);
+
+	// If u want to generate by a paragraph number. The second parameter is if you want to separe by html (tag: <p>)
+	echo $lorem->generateByParagraph(2,true);
+```
