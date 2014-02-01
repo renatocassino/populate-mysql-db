@@ -1,5 +1,5 @@
 <?php
-	namespace tacno_Populate;
+	namespace Populate;
 
 	class Populate
 	{
@@ -26,7 +26,7 @@
 
 			if(!is_null($host))
 			{
-				$this->pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8",$user,$pass);
+				$this->pdo = new \PDO("mysql:host=$host;dbname=$dbname;charset=utf8",$user,$pass);
 
 				if(!$this->pdo)
 					throw new Exception("Connection error!");
@@ -61,7 +61,7 @@
 			$stmt = $this->pdo->prepare("DESCRIBE " . $this->tableName);
 			$stmt->execute();
 
-			$this->fields = $stmt->fetchAll(PDO::FETCH_ASSOC);
+			$this->fields = $stmt->fetchAll(\PDO::FETCH_ASSOC);
 			var_dump($this->fields);
 		}
 		
