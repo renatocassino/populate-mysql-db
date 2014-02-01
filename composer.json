@@ -15,7 +15,7 @@
     ],
     "autoload": {
     	"psr-0": {
-    		"Populate":"src"
+			"psr-4": { "Populate": ["src/"] }
     	}
     }
 }

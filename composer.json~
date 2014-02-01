@@ -5,9 +5,17 @@
     "require": {
         "php": ">=5.3.0"
     },
+	"authors": [
+        {
+            "name": "Renato Cassino",
+            "email": "renatocassino@gmail.com",
+            "homepage": "http://postpublico.com",
+            "role": "Developer"
+        }
+    ],
     "autoload": {
     	"psr-0": {
-    		"Populate":"src"
+			"psr-4": { "Populate": ["src/", "lib/"] }
     	}
     }
 }
