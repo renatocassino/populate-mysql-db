@@ -14,8 +14,7 @@
         }
     ],
     "autoload": {
-		"psr-0": {
-			"ProgressBar" : "."
-		}
+		"psr-4": {
+			"Populate\\" : "src/"        }
     }
 }

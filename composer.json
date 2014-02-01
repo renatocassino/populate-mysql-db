@@ -14,8 +14,8 @@
         }
     ],
     "autoload": {
-		"psr-0": {
-			"Populate" : "."
-		}
+		"psr-4": {
+			"Populate\\" : "src/"
+        }
     }
 }
