@@ -1,5 +1,5 @@
 <?php
-	namespace Populate;
+	namespace tacno_Populate;
 
 	class Populate
 	{

@@ -1,6 +1,6 @@
 <?php
 
-	namespace Populate;
+	namespace tacno_Populate;
 	class LoremIpsumGenerator
 	{
 		private static $_lorem;
