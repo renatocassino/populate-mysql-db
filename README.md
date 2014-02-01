@@ -110,4 +110,7 @@ echo $lorem->generateByChars(30);
 
 // If u want to generate by a paragraph number. The second parameter is if you want to separe by html (tag: <p>)
 echo $lorem->generateByParagraph(2,true);
+
+// And if u want to generate a random word
+echo $lorem->generateRandomWord();
 ```
