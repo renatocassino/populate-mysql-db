@@ -132,5 +132,17 @@
 					$result . ' ' . implode(' ',$words) . '.' :
 					$result . ' ' . implode(' ',$words);
 		}
+
+	public function generateRandomWord() {
+		$chars = 'abcdefghijklmnopqrskuvwxyz';
+		$qtPossibleChars = strlen($chars) - 1;
+		$qtChars = rand(4,20);
+
+		$returnWord ='';
+		for($i = 0; $i < $qtChars; $i++)
+			$returnWord .= $chars[rand(0,$qtPossibleChars)];
+
+		return $returnWord;
 	}
+}
 ?>
