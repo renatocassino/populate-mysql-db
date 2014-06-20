@@ -17,7 +17,7 @@ You need to use the composer:
 ```JSON
 {
 	"require": {
-		"tacno/populate-mysql-db": "dev-master"
+		"tokenpost/populate-mysql-db": "dev-master"
 	}
 }
 ```
