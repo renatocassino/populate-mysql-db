@@ -2,7 +2,7 @@ Populate Database (Works only for mysql)
 =================
 
 This class populate the table in database with random values.
-In same cases we need to view an application with data and this class solve this problema.
+In some cases, we need to view an application with data and this class solve this problem.
 
 Requirements
 -----------
